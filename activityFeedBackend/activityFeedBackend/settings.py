@@ -136,7 +136,8 @@ SWAGGER_SETTINGS = {
 
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:3000',
-    'https://fsd-take-home-challenge-activity-feed-frontend-x94u-hai9jfau7.vercel.app'
+    'https://fsd-take-home-challenge-activity-feed-frontend-x94u-hai9jfau7.vercel.app',
+    'https://fsd-take-home-challenge-activity-feed.vercel.app/'
 ]
 
 
