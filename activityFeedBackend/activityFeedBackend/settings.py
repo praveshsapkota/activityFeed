@@ -27,7 +27,8 @@ SECRET_KEY = 'django-insecure-f!m=o%8$w)!kv^sg*luf(6%)i2rcqp1d#rd+zc09dzey&wl49^
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["*"]
+ALLOWED_HOSTS = ['http://localhost:3000',
+    'https://fsd-take-home-challenge-activity-feed-frontend-x94u-hai9jfau7.vercel.app']
 
 
 # Application definition
@@ -136,6 +137,7 @@ SWAGGER_SETTINGS = {
 
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:3000',
+    'https://fsd-take-home-challenge-activity-feed-frontend-x94u-hai9jfau7.vercel.app'
 ]
 
 
